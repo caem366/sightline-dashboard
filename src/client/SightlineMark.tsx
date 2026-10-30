@@ -1,0 +1,3 @@
+export function SightlineMark({className=''}:{className?:string}){
+  return <svg className={className} viewBox="0 0 96 64" role="img" aria-label="Sightline symbol" xmlns="http://www.w3.org/2000/svg"><path d="M5 32c12-1 20-1 30-2m26-1c11-1 20 0 30-1" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/><path d="M35 30C35 16 45 6 57 7c13 1 22 11 21 24-1 13-11 23-23 23-12 0-21-10-20-24Z" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M34 31c10 1 16 0 23-1 8-1 16-1 22-2" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"/><path d="M50 25c5-3 12 0 14 6 2 6-1 12-7 13-7 1-12-3-12-9 0-5 1-8 5-10Z" fill="currentColor"/></svg>;
+}
